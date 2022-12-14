@@ -1,0 +1,19 @@
+// Variables
+//
+$theme-colors: (
+  'primary': #072058,
+  'secondary': #6c757d,
+  'success': #198754,
+  'warning': #ffc107,
+  'danger': #dc3545,
+  'light': #f8f9fa,
+  'info': #0dcaf0,
+  'dark': #212529
+);
+// Responsive Variables
+$xxl: 'only screen and (min-width: 1400px) and (max-width: 1600px)';
+$xl: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xs: '(max-width: 575px)';

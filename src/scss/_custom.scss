@@ -1,0 +1,32 @@
+.layout {
+  position: relative;
+  background-color: #fff;
+}
+.leftbar {
+    position: absolute;
+    background-color: #072058;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    // overflow: hidden;
+}
+.navIcons {
+  position: absolute;
+  width: 79px;
+  height: 100%;
+  background-color: #79A2FF;
+  color: white;
+}
+.navIconsContainer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.navIcons_txtContainer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
