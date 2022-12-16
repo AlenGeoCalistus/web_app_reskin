@@ -3,30 +3,185 @@
   background-color: #fff;
 }
 .leftbar {
-    position: absolute;
-    background-color: #072058;
-    height: 100vh;
-    width: 100vw;
-    left: 0;
-    top: 0;
-    // overflow: hidden;
+  position: absolute;
+  background-color: #072058;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  // overflow: hidden;
 }
 .navIcons {
   position: absolute;
   width: 79px;
+  // height: 885px;
+  left: 5px;
+  top: 79px;
+  bottom: 79px;
+  // background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navItemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  color: #79a2ff;
+}
+.navIcon {
+  width: 25px;
+  height: 30px;
+}
+.iconTxt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+.center {
+  position: absolute;
+  max-width: 93%;
+  height: calc(100vh - 35px);
+  left: 89px;
+  top: 19px;
+  background: #ffffff;
+  border-radius: 20px;
+  right: 19px;
+}
+.courseSection {
+  position: absolute;
+  max-width: 100%;
+  // max-width: 45%;
   height: 100%;
-  background-color: #79A2FF;
-  color: white;
-}
-.navIconsContainer{
+  left: 0;
+  top: 0;
+  // background: yellowgreen;
+  // background: #F9F9F9;
+  border-radius: 20px;
+  // border-radius: 20px 0px 0px 20px;
+  right: 0;
+  // right: 19px;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
-.navIcons_txtContainer{
+.courseLeftContainer {
+  max-width: 45%;
+  background: #f3f3f3;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 2rem;
+  height: 100%;
+}
+.courseHeaderContainer {
+  margin-bottom: 1.5rem;
+}
+.courseHeader {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 28px;
+}
+.courseSubheaderContainer {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  gap: 8%;
+  margin-bottom: 1rem;
 }
+.courseSubheader {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.cardContainer {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  margin-bottom: 20px;
+}
+.cardImg {
+  width: 180px;
+  height: 120px;
+  border-radius: 20px;
+}
+.cardTxtContainer {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cartHeadingText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.cardBodyText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777777;
+}
+.cardBottomIcon {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777777;
+  margin-right: 10px;
+}
+.cardBottomIconText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777777;
+}
+.courseSectionCard {
+  overflow-y: auto;
+  max-height: 85%;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.playerSection {
+  display: flex;
+  padding: 2rem;
+}
+.playerVideoCard {
+  border: none;
+  max-width: 45rem;
+  display: flex;
+  flex-direction: column;
+}
+.playerVideoCardBodyTxtContainer {
+  padding-top: 1.5rem;
+}
+.playerVideoCardHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+.playerVideoCardBodyTxt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.trainerDetails {
+  display: flex;
+  align-items: center;
+}
+.trainerImg {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.trainerNameContainer{
+  display: flex;
+  flex-direction: column;
+}
+//

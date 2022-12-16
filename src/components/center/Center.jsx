@@ -1,8 +1,13 @@
 import React from 'react'
+import CourseSection from '../courseSection/CourseSection'
+import PlayerSection from '../playerSection/PlayerSection'
 
 function Center() {
   return (
-    <div>Center</div>
+    <div className='center'>
+      <CourseSection/>
+      {/* <PlayerSection/> */}
+    </div>
   )
 }
 
